@@ -14,7 +14,7 @@ const Header = () => {
                 <MenuItem title={"HOME"} address={"/"} Icon={AiFillHome}/>
                 <MenuItem title={"About"} address={"/about"} Icon={AiFillInfoCircle}/>
             </div>
-            <div className='flex items-center space-x-5'>
+            <div className='flex items-center space-x-6 mx-3 '>
                 <DarkMode/>
                <Link href={'/'}><h2 className='text-2xl'><span className='font-bold bg-amber-500 py-1 px-2 rounded-lg'>IMDb</span></h2></Link>
             </div>
