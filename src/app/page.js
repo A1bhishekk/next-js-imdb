@@ -1,7 +1,7 @@
 import Results from "@/components/Results";
 
-const API_KEY = process.env.API_KEY;
-// const API_KEY="8379b7af4a675b6748b239853b0a2f43"
+// const API_KEY = process.env.API_KEY;
+const API_KEY="8379b7af4a675b6748b239853b0a2f43"
 
 export default async function Home({ searchParams }) {
   const genre = searchParams.genre || "fetchTrending";
